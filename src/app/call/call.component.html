@@ -1,0 +1,6 @@
+<p>Chamada muito louca</p>
+
+<p *ngIf="!hasInfo">Opa, não tenho informações =/</p>
+<p *ngIf="hasInfo"> Uhul, agora eu tenho informações <br/><br/> {{ devices | json }} </p>
+
+<p *ngIf="hasInfo"> {{ deviceIds | json }}</p>
